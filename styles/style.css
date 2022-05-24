@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family:'poppinsregular';
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+#title{
+    color: white;
+    line-height: 10px;
+}
+h1{
+    font-weight: 200;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+nav{
+   margin: 20px;
+}
+span{ 
+    color: rgb(132, 14, 201);
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'poppinsmedium';
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    height: 20px;
+    border:white;
+    border: none;
+    font-size: 15px;
+}
+p {
+    font-family:'poppinslight';
+}
+img{
+    width: 580px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    margin: 5px;
+
+}
+a:hover{
+    color:rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+#especial{
+    padding: 10px;
+    border: 1px solid rgb(132, 14, 201);
+    border-radius: 15px; 
+}
+#especial:hover{
+    background-color:rgb(132, 14, 201); 
+    color: white;
+    
+}
