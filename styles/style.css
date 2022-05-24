@@ -63,6 +63,7 @@ input{
 }
 p {
     font-family:'poppinslight';
+    max-width: 500px;
 }
 img{
     width: 580px;
